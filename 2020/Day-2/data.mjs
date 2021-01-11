@@ -1,5 +1,5 @@
 const data = [
-  '  6-9 z: qzzzzxzzfzzzz',
+  '6-9 z: qzzzzxzzfzzzz',
   '2-4 s: xgmsdts',
   '6-7 k: khqpsvk',
   '1-3 k: knkqh',

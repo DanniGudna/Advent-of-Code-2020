@@ -4,7 +4,6 @@
   "description": "My solutions to advent of Code 2020",
   "main": "index.js",
   "dependencies": {
-    "advent-of-code": "^5.0.0",
     "babel-cli": "^6.26.0"
   },
   "devDependencies": {
@@ -21,8 +20,9 @@
     "lint": "eslint --fix --ext .js,.jsx .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start1": "nodemon --exec babel-node ./2020/Day-1/main.mjs",
-    "day1": "babel-node ./2020/Day-1/main.mjs",
-    "day2": "babel-node ./2020/Day-2/main.mjs"
+    "2020day1": "babel-node ./2020/Day-1/main.mjs",
+    "2020day2": "babel-node ./2020/Day-2/main.mjs",
+    "2020day3": "babel-node ./2020/Day-3/main.mjs"
   },
   "repository": {
     "type": "git",
