@@ -334,4 +334,6 @@ const slopesToTry = [
   { Right: 1, Down: 2 },
 ];
 
-export { lineLength, data, slopesToTry };
+const TREE = '#';
+
+export { lineLength, data, slopesToTry, TREE };

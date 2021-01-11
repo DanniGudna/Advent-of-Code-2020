@@ -13,6 +13,7 @@
     "no-console": "off",
     "operator-linebreak": "off",
     "import/extensions": "off",
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": ["error", "windows"],
+    "object-curly-newline": "off"
   }
 }
