@@ -22,7 +22,8 @@
     "start1": "nodemon --exec babel-node ./2020/Day-1/main.mjs",
     "2020day1": "babel-node ./2020/Day-1/main.mjs",
     "2020day2": "babel-node ./2020/Day-2/main.mjs",
-    "2020day3": "babel-node ./2020/Day-3/main.mjs"
+    "2020day3": "babel-node ./2020/Day-3/main.mjs",
+    "2020day4": "babel-node ./2020/Day-4/main.mjs"
   },
   "repository": {
     "type": "git",

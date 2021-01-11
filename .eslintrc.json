@@ -14,6 +14,7 @@
     "operator-linebreak": "off",
     "import/extensions": "off",
     "linebreak-style": ["error", "windows"],
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "prefer-template": "off"
   }
 }

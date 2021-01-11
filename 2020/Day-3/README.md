@@ -60,7 +60,7 @@ In this example, traversing the map using this slope would cause you to encounte
 
 Starting at the top-left corner of your map and following a slope of right 3 and down 1, _how many trees would you encounter?_
 
-# - Notes -
+### - Notes -
 
 We can skip the first line since we start there so we never need to count it. So we comment out the first line and countinue from there.
 

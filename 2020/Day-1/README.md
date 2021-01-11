@@ -25,9 +25,9 @@ In this list, the two entries that sum to `2020` are `1721` and `299`. Multiplyi
 
 Of course, your expense report is much larger. _Find the two entries that sum to `2020`; what do you get if you multiply them together?_
 
-# - Notes -
+### - Notes -
 
-We can solve this witou brute forcing by first sorting the numbers. We then have two pointers, `lowPointer` and `highPointer`. `lowPointer` starts with the value 0 so it points at the lowest number and `highPointer` starts at the end of the array (arra.length - 1). We then add the numbers the pointers are pointing at. If the sum is higher then 2020 then we lower `highPointer` by one. If the sum is lower than 2020 then we add 1 to `lowPointer`. We will eventually find the number without having to brute force our way through all the numbers in the array.
+We can solve this witout brute forcing by first sorting the numbers. We then have two pointers, `lowPointer` and `highPointer`. `lowPointer` starts with the value 0 so it points at the lowest number and `highPointer` starts at the end of the array (arra.length - 1). We then add the numbers the pointers are pointing at. If the sum is higher then 2020 then we lower `highPointer` by one. If the sum is lower than 2020 then we add 1 to `lowPointer`. We will eventually find the number without having to brute force our way through all the numbers in the array.
 
 ## --- Part Two ---
 
@@ -37,7 +37,7 @@ Using the above example again, the three entries that sum to `2020` are `979`, `
 
 In your expense report, _what is the product of the three entries that sum to `2020`?_
 
-# - Notes -
+### - Notes -
 
 We do this similarly except we use three pointers this time: `firstPointer`, `secondPointer` and `thirdPointer`. We make them all start at zero. The next step is to find 2 numbers with `firstPointer` and `secondPointer` that add up to less than `2020`. If a pointer is equal to another pointer then we skip that number, since we cant use the same number more than once. Once we find 2 numbers that add upp to less than `2020` we check if there is a third number that would make the total add up to `2020`. We can stop the loop for the `thirdPointer` if it gets higher than `2020`. Then we have to find another `secondPointer` number. If we have looped through all the array with our `secondPointer` without finding numbers that add up then we increment the `firstPointer` and try again.
 
