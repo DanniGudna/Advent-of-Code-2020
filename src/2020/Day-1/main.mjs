@@ -95,4 +95,4 @@ function part2(numArray, number) {
 }
 
 console.log('The answer to Day 1 Part 1 is: ', part1(data, 2020));
-console.log('the answer to Day 2 Part 2 is: ', part2(data, 2020));
+console.log('the answer to Day 1 Part 2 is: ', part2(data, 2020));
