@@ -4,16 +4,24 @@
   "description": "My solutions to advent of Code 2020",
   "main": "index.js",
   "dependencies": {
-    "advent-of-code": "^5.0.0"
+    "advent-of-code": "^5.0.0",
+    "babel-cli": "^6.26.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "eslint": "^7.17.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
   },
   "scripts": {
-    "lint": "eslint ./Advent-of-Code-2020 --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "nodemon --exec babel-node ./src/2020/Day-1/main.mjs",
+    "day1": "babel-node ./src/2020/Day-1/main.mjs"
   },
   "repository": {
     "type": "git",
