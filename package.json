@@ -20,9 +20,9 @@
   "scripts": {
     "lint": "eslint --fix --ext .js,.jsx .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start1": "nodemon --exec babel-node ./src/2020/Day-1/main.mjs",
-    "day1": "babel-node ./src/2020/Day-1/main.mjs",
-    "day2": "babel-node ./src/2020/Day-2/main.mjs"
+    "start1": "nodemon --exec babel-node ./2020/Day-1/main.mjs",
+    "day1": "babel-node ./2020/Day-1/main.mjs",
+    "day2": "babel-node ./2020/Day-2/main.mjs"
   },
   "repository": {
     "type": "git",
