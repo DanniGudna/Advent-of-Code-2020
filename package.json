@@ -23,7 +23,14 @@
     "2020day1": "babel-node ./2020/Day-1/main.mjs",
     "2020day2": "babel-node ./2020/Day-2/main.mjs",
     "2020day3": "babel-node ./2020/Day-3/main.mjs",
-    "2020day4": "babel-node ./2020/Day-4/main.mjs"
+    "2020day4": "babel-node ./2020/Day-4/main.mjs",
+    "2020day5": "babel-node ./2020/Day-5/main.mjs",
+    "2020day6": "babel-node ./2020/Day-6/main.mjs",
+    "2020day7": "babel-node ./2020/Day-7/main.mjs",
+    "2020day8": "babel-node ./2020/Day-8/main.mjs",
+    "2020day9": "babel-node ./2020/Day-9/main.mjs",
+    "2020day10": "babel-node ./2020/Day-10/main.mjs",
+    "2020day11": "babel-node ./2020/Day-11/main.mjs"
   },
   "repository": {
     "type": "git",

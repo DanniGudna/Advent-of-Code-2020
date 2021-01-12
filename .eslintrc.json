@@ -15,6 +15,7 @@
     "import/extensions": "off",
     "linebreak-style": ["error", "windows"],
     "object-curly-newline": "off",
-    "prefer-template": "off"
+    "prefer-template": "off",
+    "no-restricted-syntax": ["off", "BinaryExpression[operator='of']"]
   }
 }
