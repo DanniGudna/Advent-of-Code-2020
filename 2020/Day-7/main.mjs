@@ -1,12 +1,12 @@
 import data from './data.mjs';
 
-let count = -1; // start in negative one since we count the shiny gold bag as well
-
 /// //////////////////////////
 ///                       ////
 ///         Part 1        ////
 ///                       ////
 /// //////////////////////////
+
+let count = -1; // start in negative one since we count the shiny gold bag as well
 
 // get bag name
 function getBagName(rule) {
@@ -55,7 +55,6 @@ function howManyCanContain(bagRules, bag) {
 
 // create an array with all the rules for the bag
 function getRules(rule) {
-  // const key = rule.split(' ').slice(0,2).join(' ');
   const bagArray = [];
   const bags = rule.split('contain ')[1];
   // if empty return empty array
@@ -79,7 +78,7 @@ function createBagObject(bagRules) {
   return bagObject;
 }
 
-// recursion, remove line with bag&rule and add 1 and add others to array.
+// recursion, remove line with bag&rule and add 1 then add others to array.
 // call the same function with everything in the array repeat untill array is empty on all accounts.
 function countBags(bagToCheck, bagObject) {
   let localBagCounter = 0;
