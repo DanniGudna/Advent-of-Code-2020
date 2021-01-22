@@ -16,6 +16,8 @@
     "linebreak-style": ["error", "windows"],
     "object-curly-newline": "off",
     "prefer-template": "off",
-    "no-restricted-syntax": ["off", "BinaryExpression[operator='of']"]
+    "no-restricted-syntax": ["off", "BinaryExpression[operator='of']"],
+    "prefer-destructuring": "off",
+    "brace-style": 0
   }
 }
