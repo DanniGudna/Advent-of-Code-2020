@@ -105,6 +105,6 @@ Execute the initialization program using an emulator for a version 2 decoder chi
 
 # Answers
 
-| Part 1           | Part 2 |
-| ---------------- | ------ |
-| `11926135976176` | `???`  |
+| Part 1           | Part 2          |
+| ---------------- | --------------- |
+| `11926135976176` | `4330547254348` |
